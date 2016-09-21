@@ -6,10 +6,10 @@ import java.util.Date;
 
 public class TimeUtils {
 
-    public static String dateToStamp(String str) throws ParseException {
+    public static String dateToStamp(String string) throws ParseException {
         String res;
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-        Date date = simpleDateFormat.parse(str);
+        Date date = simpleDateFormat.parse(string);
         long ts = date.getTime();
         res = String.valueOf(ts);
         return res;
