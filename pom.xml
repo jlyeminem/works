@@ -71,6 +71,7 @@
                     </formats>
                     <instrumentation>
                         <excludes>
+                            <exclude>bean/</exclude>
                         </excludes>
                     </instrumentation>
                 </configuration>
